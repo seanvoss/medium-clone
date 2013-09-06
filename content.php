@@ -24,7 +24,7 @@
             <h1 class="entry-title"><?php the_title(); ?></h1>
             <a class="offscreen" href="<?php the_permalink(); ?>" title="<?php the_subtitle(); ?>"><?php the_title(); ?></a>
             <h2 class="entry-subtitle"><? the_subtitle(); ?></h2>
-        /header><!-- .entry-header -->
+        </header><!-- .entry-header -->
 
         <?php if ( is_search() ) : // Only display Excerpts for Search ?>
         <div class="entry-summary">
