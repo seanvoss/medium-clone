@@ -663,7 +663,6 @@ body{
 }
 
 .content-area{
-    padding-top:90px;
     margin:top:0;
     overflow:hidden;
 }
@@ -679,6 +678,10 @@ body{
 
 .entry-meta{
     margin:10px 0;
+}
+
+ .site-content{
+    padding: 90px 5%;
 }
 
 .offscreen
